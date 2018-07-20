@@ -91,5 +91,5 @@ class ZabbixApi(object):
 	self.log.close()
 
 if __name__ == "__main__":
-    zabbix = ZabbixApi(server="https://monitor.kuainiujinke.com/api_jsonrpc.php",db_username="sijie",db_password="sijie",db_host="127.0.0.1")
+    zabbix = ZabbixApi(server="https://monitor.kuainiujinke.com/api_jsonrpc.php",db_username="xxxx",db_password="xxxx",db_host="127.0.0.1")
     zabbix.pull_item_data()
